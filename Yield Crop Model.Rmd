@@ -1,5 +1,13 @@
-# Yield-Crop-Model
-Train and analyze many model for crops yield
+---
+title: "Yiel Crop Model"
+author: "Franklin Santos"
+date: "9/8/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 ## Antecedentes
 
@@ -138,3 +146,13 @@ slopes %>%
 * En el eje-y está el valor p, una medida de cuán sorprendente es el efecto que vemos bajo el supuesto de que no hay relación (sin cambios con el tiempo). Los países más bajos en las parcelas tienen valores p más pequeños; estamos más seguros de que se trata de relaciones reales.
 
 Podemos ampliar esto para comprobar qué tan bien estos modelos se ajustan a los datos con glance(). ¡Este enfoque para usar modelos estadísticos para estimar cambios en muchos subgrupos a la vez me ha sido muy útil en muchas situaciones!
+
+
+
+
+
+
+
+
+
+
